@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&family=Water+Brush&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Water Brush", sans-serif;
+    background-color: rgb(209, 139, 17);
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.groceries{
+    width: 600px;
+    min-height: 100vh;
+    padding-top: 30px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+.title{
+    font-size: 1.5rem;
+}
+.input{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+.input i{
+    cursor: pointer;
+    font-size: 2rem;
+    color: #b05e19;
+}
+.input input{
+    font-family: inherit;
+    outline: none;
+    border: none;
+    width: 100%;
+    font-size: 1.5rem;
+    border-bottom: 3px solid black;
+}
+.allItems{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 75%;
+}
+@media(max-width:640px){
+    .title{
+        font-size: 1rem;
+    }
+    .input i{
+        font-size: 1.5rem;
+    }
+    .input input{
+        font-size: 1rem;
+    }
+    .allItems{
+        font-size: 1rem;
+    }
+}
+
