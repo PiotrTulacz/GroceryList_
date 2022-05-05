@@ -3,7 +3,7 @@ const allItems = document.querySelector(".allItems");
 const userInput = document.querySelector(".userInput");
 
 pencil.addEventListener("click",function (){
-    allItems.innerHTMl = "";
+    allItems.textContent = "";
 })
 
 userInput.addEventListener("keydown",function (event){
